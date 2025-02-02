@@ -1,24 +1,158 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
 </head>
-  <body>
+
+<body>
 
     <nav class="nav">
 
-       
-        <a class="nav-link active" aria-current="page" href="#">bmw</a>
+
+        <a class="nav-link active" aria-current="page" href="#"></a>
         <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="#">About</a>
         <a class="nav-link" href="#">Form</a>
+        <a class="nav-link" href="#">Information</a>
+        <a class="nav-link" href="#">Map</a>
         <a class="nav-link disabled" aria-disabled="true"></a>
-      </nav>
-    <h1>Hello, world!</h1>
+    </nav>
+     <!-- start home  -->
+
+     <section id="Home">
+        <div class="container bg-light my-2">
+
+            <div class="text-center">
+                <h1 class="text-dark ">Home</h1>
+            </div>
+            <hr>
+
+    </section>
+
+    <!-- end home  -->
+    <!-- start About  -->
+
+    <section id="About">
+        <div class="container bg-light my-2">
+
+            <div class="text-center">
+                <h1 class="text-dark ">About</h1>
+            </div>
+            <hr>
+
+            <div class="row ">
+                <h1 class="text-dark text-center p-3"><u>Azimpur Govt. Girl's School & College</u></h1>
+                <div class="col-md-6 d-flex justify-content-center">
+                    <img src="images/logo.jpeg" alt="AGGSC"
+                        class="rounded-circle border border-3 border-primary mb-2">
+                </div>
+                <div class="col-md-6">
+                    <p>Azimpur Government Girls' School and College (Bengali: আজিমপুর গভর্নমেন্ট গার্লস স্কুল এন্ড কলেজ)
+                        is a secondary and higher secondary school in Azimpur, Dhaka, Bangladesh. It was established in
+                        1957 by the Welfare Association of Government Employees. In 1999 the school had an enrollment of
+                        some 2,700 students and a faculty of 82.
+
+                    <p> The institution is known for its cultural activities. It hosts educational events like
+                        Bangladesh Mathematics Olympiad and Bhasha Protijog. The school celebrated its Golden Jubilee
+                        and reunion in 2007.</p>
+
+                    <p> The school started its classes in 1957. The first Head Master was Kazi Ambor Ali. In 1995,
+                        Azimpur Girl's College was established on the school campus. Both school and college united into
+                        a single institution in 1999.</p>
+
+                    <p> It has nearly 7000 students and 92 teachers in total. The Principal is Geetanjali barua.
+                        Property of the institution includes 4 buildings, a large playground, a duplex auditorium and a
+                        residence for the principal.</p>
+
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+    <!-- End About -->
+
+
+    <!-- form start here -->
+    <section id=" Form">
+        <div class="container">
+            <h3 class="text-center"> Form</h3>
+            <hr>
+            <p>
+                Click here 
+
+            </p>
+            <a href="form.html"> <b> "Registration Form"</b></a>
+
+    
+</div>
+</section>
+
+      <!-- form end here -->
+     
+
+    <!-- information start -->
+    <section id=" Information">
+        <div class="container">
+            <h3 class="text-center"> Information</h3>
+            <hr>
+            <div class="row m-2">
+               
+
+                <div class="col-md-6">
+                    <p>
+                    <h5 class="text-center"> <b> <u>Information</u></b></h5>
+                    <b> Type :</b>Government school and college <br>
+                    <b> Motto :</b>knowledge is power <br>
+                    <b> Established :</b>1957 <br>
+                    <b> School district :</b> dhaka <br>
+                    <b> Principal :</b> salah uddin <br>
+                    <b> Grades :</b>1-12 <br>
+                    <b> Number of students :</b>10000 in averagebr <br>
+                    <b> Color(s) :</b>purple,white <br></p>
+                </div>
+
+                <div class="col-md-6"> <p></p>
+                    <h3> For more information contact with us:</h3>
+                    <label for="">Contact No: <a href="tel:01621464789" src="c">01621464789</a>  </label>
+
+            </div>
+
+        </div>
+        </div>
+
+    </section>
+
+
+    <!-- start map -->
+
+    <section id="Map">
+        <div class="container col-md-10">
+            <h3 class="text-center p-3">Map</h3>
+           <hr>
+           
+               
+                    <iframe class="border border-3 border-dark"
+                        src="https://en.wikipedia.org/wiki/Azimpur_Government_Girls%27_School_and_College#/map/0"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+              
+
+           
+
+        </div>
+
+    </section>
+    <!-- End map -->
 
 
 
@@ -30,11 +164,9 @@
 
 
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
 
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
 </html>
